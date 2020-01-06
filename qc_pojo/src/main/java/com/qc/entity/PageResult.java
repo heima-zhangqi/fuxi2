@@ -3,11 +3,7 @@ package com.qc.entity;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * @classname: PageResult
- * @author: pcpc
- * @createtime: 2020/1/5 19:29:58
- */
+
 public class PageResult<T> implements Serializable{
     private Long total;
     private List<T> rows;
